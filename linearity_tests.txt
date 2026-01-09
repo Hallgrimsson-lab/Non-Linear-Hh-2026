@@ -1,0 +1,23 @@
+$Linear_R2
+[1] 0.7438551
+
+$Quadratic_R2
+[1] 0.9233611
+
+$Delta_AIC
+[1] 139.1767
+
+$Linearity_Score_0to1
+[1] 0.5420269
+
+$Depature_from_Linearity
+Analysis of Variance Table
+
+Model 1: PC1 ~ conc
+Model 2: PC1 ~ conc + poly(conc, 2)
+  Res.Df     RSS Df Sum of Sq      F    Pr(>F)    
+1    115 0.37717                                  
+2    114 0.11285  1   0.26432 267.01 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
